@@ -1,6 +1,6 @@
 Sunday, September 28, 2025
 
-I am in the process of rebuilding my home lab using Talos Linux and at least 3 Raspberry Pi 5 16GB with 1TB NVME SSD's.  Right now, I run a few separate machines on my network that handle different things. I like NixOS for the machines because I am able to manage and provision my whole network with a version controlled git repo. For this reason, Talos caught my eye.
+I am in the process of rebuilding my home lab using Talos Linux and at least 3 Raspberry Pi 5 16GB with 1TB NVME SSD's. I am still waiting for one more Raspberry Pi 5 16GB from Canakit to start the process. Right now, I run a few separate machines on my network that handle different things. I like NixOS for the machines because I am able to manage and provision my whole network with a version controlled git repo. For this reason, Talos caught my eye.
 
 Right now, I run NixOS on a ZimaBlade, Home Assistant OS on a dedicated Raspberry Pi 5 16GB, two NVidia Shields running Android OS which I use for Kodi, a few NixOS x86 machines, and a Synology NAS which handles all of the files for each of these machines (where possible).  I have a 19" rack enclosure for the Pi that currently only contains only one of the 4 Raspberry Pi 5's which runs Home Assistant OS. Each slot comes with a dedicated NVME hat that I am definitwly going to utilize.   
 
