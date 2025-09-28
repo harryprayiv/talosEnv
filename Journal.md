@@ -8,7 +8,7 @@ As I make progress on getting Talos setup, this blog is a place for me to distil
 
 Right now, I am still at the point where I am still soaking in info, prodding and poking, and prototyping. Using the power of Nix flakes, I plan to eventually have the capability to get a whole cluster up and running in seconds using one command to flash and provision a whole custom Pi5 Image with an NVME drive via PXEboot.  
 
-I am also looking into replacing my entire Synology NAS with a Rook CEPH storage cluster but I also hear of "Longhorn" which also does distributed storage.  
+I am also looking into replacing my entire Synology NAS with a Rook CEPH storage cluster but I also hear of "Longhorn" which also does distributed storage.  That won't happen for a while, though. 90 TB is no joke to move around.
 
 The other reason I want to learn all of this is for the purposes of SAAS. I am in the process of creating a full open source retail infrastructure for enterprise use written in Nix, with a Haskell Servant back end, and Purescript front end.  I had planned to do this with a simple x86 machine runing a custon NixOS. However, it seems like multiple compute modules in a cluster would be vastly easier to manage while also being lower power, higher security, high availability, scaleable, self-healing, and perhaps even more capable.  I could run my app in images on a cluster which would allow all kinds of extra capability.  I am still researching how I could deliver the binaries for this app with this new infrastructure but even if it meant that I'd have to run the app as a (lightweight) NixOS VM on Talos seems really powerful.  The decentralized nature of K8S as well as the minimalist nature of Talos promises to make no-downtime upgrades relatively painless.  
 
