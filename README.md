@@ -1,8 +1,3 @@
-Looking at your requirements and the Raspberry Pi documentation you provided, here's a comprehensive README that will help anyone get a Talos cluster running:
-
-## README.md
-
-```markdown
 # Talos Manager
 
 A complete Nix-based environment for deploying and managing Talos Linux Kubernetes clusters with zero manual configuration.
