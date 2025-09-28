@@ -470,6 +470,10 @@ pkgs.mkShell {
     talosctl
     talhelper
     
+    # Omni Stuff
+    # omnix
+    # omnictl
+
     # Raspberry Pi tools  
     rpi-imager
     
